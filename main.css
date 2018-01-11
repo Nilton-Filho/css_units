@@ -3,11 +3,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-size: 14px;
-}
-
-
 h1{
     text-align: center;
 }
@@ -16,22 +11,38 @@ span{
     display: block;
 }
 
-div{
+
+
+html{
+    font-size: 14px;
+}
+
+section{
     padding: 30px;
 }
 
 /* em unit */
-.em{
+.em-section{
     background: orangered;
     color: white;
+}
+
+.em{
     font-size: 1.2em; /* Calculado como: 14px * 1.2 = 16,8*/
 }
 
 /* rem unit */
-.rem{
+.rem-section{
     background: greenyellow;
 }
 
+.rem{
+    font-size: 1.2rem; /*Relativo ao elemento root (html)*/
+}
+
+.rem-2{
+    font-size: 1.8rem; /*Relativo ao elemento root (html)*/
+}
 
 
 .one{
