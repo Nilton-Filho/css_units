@@ -19,7 +19,7 @@ html{
     font-size: 14px;
 }
 
-section{
+section,div{
     padding: 15px;
 }
 
@@ -56,14 +56,12 @@ section{
 .fullwidth{
     width: 100vw; /*100% of viewport size*/
     background: lightgray; 
-    padding: 15px;
 }
 
 .halfwidth{
     width: 50vw; /*50% of viewport size*/
     height: 50vh;
     background: gray;
-    padding: 15px;
 }
 
 
@@ -71,12 +69,13 @@ section{
 .vw-grid{
     background-color: red;
     display: flex;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .vw-2{
     width: 20vw; /*20% of viewport width*/
     height: 20vh;  /*20% of viewport height*/
-    padding: 15px;
 }
 
 .vw-2:nth-child(even){
@@ -98,4 +97,24 @@ section{
 }
 .without-vw{
     font-size: 2.5rem;
+}
+
+
+/* vmin and vmax unit*/
+.vminVmax-section{
+    background-color: chocolate;
+    padding-left:0px;
+    padding-right: 0px;
+}
+
+
+.vmin{
+    background-color: green;
+    width: 100vmin;
+    /* padding: f; */
+}
+
+.vmax{
+    background-color: brown;
+    width: 50vmax;
 }
