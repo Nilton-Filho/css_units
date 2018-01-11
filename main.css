@@ -1,10 +1,12 @@
 *{
-    margin: 0;
     box-sizing: border-box;
+    margin: 0;
 }
 
-h1{
+h1,h2{
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 span{
@@ -18,7 +20,7 @@ html{
 }
 
 section{
-    padding: 30px;
+    padding: 15px;
 }
 
 /* em unit */
@@ -44,17 +46,43 @@ section{
     font-size: 1.8rem; /*Relativo ao elemento root (html)*/
 }
 
-
-.one{
-    width: 50vw;
-    height: 10vw;
-    background: pink;
-}
-
-.two{
-    background: green;
-}
-
-.three{
+/* vw and vh unit*/
+.vwvh-section{
     background: purple;
+    padding-left:0px;
+    padding-right: 0px;
 }
+
+.fullwidth{
+    width: 100vw; /*100% of viewport size*/
+    background: lightgray; 
+    padding: 15px;
+}
+
+.halfwidth{
+    width: 50vw; /*50% of viewport size*/
+    height: 50vh;
+    background: gray;
+    padding: 15px;
+}
+
+
+/*vw-grid*/
+.vw-grid{
+    background-color: red;
+    display: flex;
+}
+
+.vw-2{
+    width: 20vw; /*20% of viewport width*/
+    height: 20vh;  /*20% of viewport height*/
+    padding: 15px;
+}
+
+.vw-2:nth-child(even){
+    background-color: lightblue;
+}
+.vw-2:nth-child(odd){
+    background-color: lightcoral;
+}
+
