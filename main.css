@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+span{
+    display: block;
+}
+
+div{
+    padding: 30px;
+}
+
+/* em unit */
+.em{
+    background: orangered;
+    color: white;
+    font-size: 1.2em; /* Calculado como: 14px * 1.2 = 16,8*/
+}
+
+/* rem unit */
+.rem{
+    background: greenyellow;
+}
+
+
+
+.one{
+    width: 50vw;
+    height: 10vw;
+    background: pink;
+}
+
+.two{
+    background: green;
+}
+
+.three{
+    background: purple;
+}

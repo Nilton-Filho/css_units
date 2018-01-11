@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link rel="stylesheet" href="main.css">
+    <title>Units Css</title>
+</head>
+<body>
+    
+    <!-- em unit -->
+    <div class="em">
+        <h1>em unit</h1>
+       First text (14px * 1.2 = 16.8px)
+       <div class="em">
+           child text (16.8px * 1.2 = 20,16px)
+           <div class="em">
+               child of child text (20,16 * 1.2 = 24,192px)
+           </div>
+       </div>
+
+       <p class="em">
+           sibling text using <b>p</b> tag (calc don't working)
+           <p class="em">Child text using <b>p</b> tag (calc don't working)</p>
+       </p>
+       <br>
+
+       <span class="em">
+           sibling text using <b>span</b> tag  (14px * 1.2 = 16.8px)
+            <span class="em">child text using <b>span</b> tag child text (16.8px * 1.2 = 20,16px)
+                <span class="em">
+                    child of child text using <b>span</b> tag  (20,16 * 1.2 = 24,192px)
+                </span>
+            </span>
+       </span>
+
+    </div>
+
+    <!-- rem unit -->
+    <div class="rem">
+        <h1>rem unit</h1>
+        
+    </div>
+
+
+    <div class="one"></div>
+    <div class="two"></div>
+    <div class="three"></div>
+
+</body>
+</html>
