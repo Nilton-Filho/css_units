@@ -16,4 +16,4 @@ if the font-size defined in the body tag is 14px and we apply a font-size of "1.
 
 # References
 
-[MDN] (https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
+[MDN](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Values_and_units)
